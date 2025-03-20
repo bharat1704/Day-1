@@ -31,18 +31,14 @@ The project uses GitHub Actions for continuous integration and deployment. The p
    - Code checkout
    - Node.js setup
    - Dependency installation
-
-
-- Build verification
+   - Build verification
 
 2. **Continuous Deployment**:
-   - Automated deployment to AWS EC2
-<<<<<<< HEAD
-   - Environment variable configuration
-   - Service restart
-   - Health check verification
-=======
-   - Service restart using pm2
+   -SSH Into machine
+   - Cd Day-1
+   - git pull
+   - pm2 restart index.js
+
 
 ## Installation
 
@@ -72,13 +68,17 @@ node index.js
 
 The application is automatically deployed to AWS EC2 when changes are pushed to the main branch. The deployment process includes:
 
-<img src="images/ec2-instance.png" alt="Alt Text" width="600" >
-<img src="images/ec2-localhost.png" alt="Alt Text" width="600" >
 
 1. Building the application
 2. Transferring files to EC2
 3. Installing dependencies
 4. Restarting the service
+
+### Images:
+<img src="images/ec2-instance.png" alt="Alt Text" width="600" >
+---
+<img src="images/ec2-localhost.png" alt="Alt Text" width="600" >
+
 
 ### AWS EC2 Setup
 
@@ -150,12 +150,4 @@ AWS EC2 Instance
 Node.js Application
 ```
 
-## Monitoring and Logs
-
-- Application logs are managed using PM2
-- Access logs using:
-```bash
-pm2 logs
-```
-
-
+Thanks for reading!!
