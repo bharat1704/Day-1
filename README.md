@@ -89,17 +89,6 @@ The application is automatically deployed to AWS EC2 when changes are pushed to 
 
 ## Usage
 
-### Local Development
-
-1. Start the server:
-```bash
-node index.js
-=======
-pm2 start index.js
-```
-
-2. Access the API at `http://localhost:3000`
-
 ### Production
 
 The application is automatically deployed and accessible at your EC2 instance's public IP:
@@ -150,4 +139,4 @@ AWS EC2 Instance
 Node.js Application
 ```
 
-Thanks for reading!!
+Thanks for coming!!
