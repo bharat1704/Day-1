@@ -79,6 +79,9 @@ node index.js
 
 The application is automatically deployed to AWS EC2 when changes are pushed to the main branch. The deployment process includes:
 
+<img src="images/ec2-instance.png" alt="Alt Text" width="300">
+<img src="images/ec2-localhost.png" alt="Alt Text" width="300">
+
 1. Building the application
 2. Transferring files to EC2
 3. Installing dependencies
