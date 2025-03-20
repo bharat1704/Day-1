@@ -13,9 +13,6 @@ This project demonstrates a complete CI/CD workflow for a Node.js application. I
 - JSON response format
 - Automated CI/CD pipeline using GitHub Actions
 - Automated deployment to AWS EC2
-<<<<<<< HEAD
-- Environment-based configuration
-=======
 
 ## Prerequisites
 
